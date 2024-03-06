@@ -1,0 +1,42 @@
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+banana - 30
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const variableName = getRandomNumber();
+orange
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const formatDate = date => new Date(date).toLocaleDateString();
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+kiwi
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+banana
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const sum = (a, b) => a + b;
+const isEven = num => num % 2 === 0;
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const greet = name => `Hello, ${name}!`;
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+78 * 2,72,22,4,94,51,10
+const isPalindrome = str => str === str.split("").reverse().join("");
+false / true
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+69 + 6,37,84,16,47,48,91,45,44,6,22,80,54,34,31,3,1,54,71,87,31,40,97,95,51,33,14,7,1,10,78,9,62,35,13,30,81,41,26,24,48,28,16,66,35,91,83,80,55,20,17,43,65,96,56,34,1,75,28,6,85,17,45,77,41,49,0,34,38,23
+
+const getUniqueValues = array => [...new Set(array)];
+kiwi + 17
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const squareRoot = num => Math.sqrt(num);
+18,27,99,39,76,5,11,78,91,67,89,8,85,70,32,33,11,7,53,85,72,35,36,85,23,46,87,71,10,37,12,4,81,10,99,43,40,11,14,41,74,89,18,60,96,64,10,47,75,92,14,17,95,26,41,45,33,33,20,0,78,81,89,11,46,80 / 10,91,11
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+function addNumbers(a, b) { return a + b; }
+const formatDate = date => new Date(date).toLocaleDateString();
