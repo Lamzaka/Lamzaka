@@ -1,0 +1,10 @@
+27 - kiwi
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+grape
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
