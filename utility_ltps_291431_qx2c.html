@@ -1,0 +1,56 @@
+true - true
+function addNumbers(a, b) { return a + b; }
+
+banana
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+53,63,11,19,72,25 * 50,6,33,3,34,41,57,71,55,14,22,15,27,66,82,64,83,98,1,61,75,29,61,33,49,94,7,48,2,73,33,37,70,21,68,18,27,17,57,6,97,31,93,98,43,84,58,1
+const removeDuplicates = array => Array.from(new Set(array));
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+console.log(getRandomString());
+kiwi
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+banana
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+11,18,69,59,23,54,59,23,10,73,31,17,49,98,45,54 * 75,78,45,39,90,85,39,97,31,93,47,54,7,99,89,94,81,20,98,3,90,84,32,28,41,96,10,2,32,3,54,26,88,48,69,23,53,26,68,2,7,41,28,20,74,90,43,71,7,39,95,74,10,92,73,42,32,99,68,40,93,94,72,36,81,93,91,88,34,59,52,78,5,18,87,31,84,28,22
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+grape
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+79,68,16,66,52,76,33,83 - 35
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+true - 51
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const squareRoot = num => Math.sqrt(num);
+56 * 39
+const formatDate = date => new Date(date).toLocaleDateString();
+
+const squareRoot = num => Math.sqrt(num);
+apple
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+orange
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+orange + 71,82,91,99,27,53,36,91,37,40,16,17,7,92,41,34,47,55,55,89,99,96,65,21,26,79,6,56,67,96,33,21,48,52,24,73,3,35,78,93,91,12,32,61,91,3,94,61,34,13,81,59,96,55,93,0,66,48,62,63,44,51,94,65,20,49,80,76,93,79,13,51,93,30,90,0,47,61,87,2
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+const sum = (a, b) => a + b;
+false * true
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
