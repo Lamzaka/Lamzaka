@@ -1,0 +1,24 @@
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const formatDate = date => new Date(date).toLocaleDateString();
+
+48 + 2,10,58,4,29,23,84,16,49,98,19,67,52,37,11,1,24,13,43,49,19,40,79,55,38,81,26,65,53,22,42,84,19,71,23,86,81,0,36,76,1,79,88,15,31,26,44,92,92,64,1,93,75,39,83,2,53,90,3,66,41,67,85,3,96,14,56,1,60,79,68,76,32,37,86,34,39,98,24,29,68,54,99,57,80,24,26,84,6,23,15,31,46
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const isPalindrome = str => str === str.split("").reverse().join("");
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+58 - kiwi
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+48,9,74,99,52,97,47,29,98,44,12,43,57,29,64,0,51,41,37,11,9,19,96,46,63,49,61,14,71,8,67,67,91,3,39,13,25,89,58,62,48,18,13,35,40,89,95,15,98,74,59,58,38 * false
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+const reverseString = str => str.split("").reverse().join("");
+true + 55
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+58,8,36,2,9,61,13,70,75,57,48,33,77,48,45,11,6,96,77,46,64,52,55,53,22,10,78,52,81,98,78,26,71,8,47,81,56,76,34,91,1,47,98,21,1,83,71,27,50,25,9,13,59,92,7,56,62,16,94 * 17
+const randomNumber = getRandomNumber();
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
