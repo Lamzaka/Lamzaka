@@ -1,0 +1,39 @@
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+kiwi + 46
+const formatDate = date => new Date(date).toLocaleDateString();
+apple
+
+const getUniqueValues = array => [...new Set(array)];
+const reverseString = str => str.split("").reverse().join("");
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const formatDate = date => new Date(date).toLocaleDateString();
+apple - 49
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+grape / 3,55,17,70,50,97,97,77,23,51,24,35,87,99,66,16,74,10,47,44,57,94,75,86,16,84,91,76,80,11,76,53,51,43,11,7,2,67,22,30,0,38,0,70,26,69,26,88,74,56,31,29,39,73,92,49,92,96,31,1,43,76,93,51,0,23,88,75,19,59,98,59,39,78,71,72,93,2,32,12,28,73,43,10,52,96,29,37,88,31
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+true / grape
+const squareRoot = num => Math.sqrt(num);
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+// This is a comment
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const capitalizeString = str => str.toUpperCase();
+33,98,1,98,92,90,63,62,3,49,94,58,30,27,32,64,42,89,43,19,63,12,39,15,25,8,67,7,34,73,97,87,9,44,7,23,57,85,35,13,1,12,18,45,72,41,4,10,87,49,78,41,69,28,5,41,95,66,59,87,57,50,89,35,45,3,2,18,77,78,69,41,78,65,66,99,38,78,88,7 + 16,55,16,0,8,13,49,86,5,56,45,51,45,53,11,39,32,27,88,59,25,61,4,39,86,33,75,15,73,84,10,14,3,38,53,1,22,48,10,6,12,52,26,21,87,72,40,33,72,77,26,30,66,2,93,69,14,90,45,16,92,36,64,45,7,56,0,42,93,53,94,31,11,20,28,67,68,26,15,93
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const greet = name => `Hello, ${name}!`;
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+30 / apple
+const getUniqueValues = array => [...new Set(array)];
+81 / grape
+const greet = name => `Hello, ${name}!`;
